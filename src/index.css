@@ -1,0 +1,13 @@
+/* app variables */
+
+ :root {
+  /* font */
+  --main-font: 'Oribitron', sans-serif;
+ }
+
+/* app CSS reset */
+
+ body, div, p {
+   margin: 0;
+   padding: 0;
+ }
