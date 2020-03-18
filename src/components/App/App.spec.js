@@ -4,7 +4,7 @@ import App from './App';
 import Calculator from '../Calculator/Calculator';
 
 describe('App', () => {
-  let wrapper
+  let wrapper;
 
   beforeEach(() => wrapper = shallow(<App/>));
 

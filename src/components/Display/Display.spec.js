@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import Display from './Display';
 
 describe('Display', () => {
-  let wrapper
+  let wrapper;
 
   beforeEach(() => wrapper = shallow(<Display displayValue={''}/>));
 
