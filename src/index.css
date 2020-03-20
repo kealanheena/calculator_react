@@ -1,6 +1,8 @@
-/* app variables */
+/*
+app variables
+*/
 
- :root {
+:root {
   /* background colors */
   --action-key-color: #545454;
   --action-key-color-hover: #2a2a2a;
@@ -37,9 +39,11 @@
   /* keypad dimensions */
   --keypad-height: 72%;
   --keypad-width: 96%;
- }
+}
 
-/* media query for tablet or smaller screen */
+/*
+media query for tablet or smaller screen
+*/
 
 @media screen and (max-width: 1024px) {
   :root {
@@ -49,13 +53,15 @@
 
     /* calculator dimensions */
     --calculator-height: 100%;
-    --calculator-width: 100%;    
+    --calculator-width: 100%;
   }
 }
 
-/* app CSS reset */
+/*
+app CSS reset
+*/
 
- body, div, p {
-   margin: 0;
-   padding: 0;
- }
+body, div, p {
+  margin: 0;
+  padding: 0;
+}
