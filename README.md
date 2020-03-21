@@ -1,6 +1,14 @@
-# TDD React
+# Calculator React
 
-A simple Calculator app created for a blog post at [testdriven.io](https://testdriven.io/blog/tdd-with-react-jest-and-enzyme-part-one/).
+A simple Calculator app created in React using TDD(test driven development) with Jest and Enzyme.
+
+## User Stories
+
+## Tech Used
+
+## Features
+
+# Getting Started
 
 ## Local Setup
 
@@ -27,3 +35,57 @@ $ npm start
 ```sh
 $ npm test
 ```
+
+### Test Coverage
+
+#### Unit Tests
+- Key:
+  - should render correctly(snapshot)
+  - should render a <div/>
+  - should render the value of the keyValue
+- Keypad:
+  - should render correctly(snapshot)
+  - should render a 4 <div/>'s
+  - should render an instance of the key component for each index of numbers, operators, and the submit Key
+  - renders the values of numbers
+  - renders the values of operators
+- Display:
+  - should render correctly(snapshot)
+  - should render a <div/>
+  - renders the value of displayValue
+- Calculator:
+  - should render correctly(snapshot)
+  - should render a <div/>
+  - should render Display and Keypad Components
+    - updateDisplay
+      - updates displayValue
+      - concatenates displayValue
+      - removes leading "0" from displayValue
+      - prevents multiple leading "0"s from displayValue
+      - removes last char of displayValue
+      - prevents multiple instances of "." in displayValue
+      - will set displayValue to "0" if displayValue is equal to an empty string
+    - setOperator
+      - updates the value of the selectedOperator
+      - update the value of storedValue to the value of displayValue
+      - updates the value of displayValue to "0"
+      - selsctedOperator is not an empty string, does not update storedValue
+    - callOperator
+      - updates displayValue to the sum of storedValue and displayValue
+      - updates displayValue to the difference of storedValue and displayValue
+      - updates displayValue to the product of storedValue and displayValue
+      - updates displayValue to the quotient of storedValue and displayValue
+      - updates displayValue to "0" if operation results in "NaN"
+      - updates displayValue to "0" if operation results in "Infinity"
+      - updates displayValue to "0" if selectedOperator does not match cases
+      - updates displayValue to "0" if called with no value for storedValue or selectedOperator
+- App:
+  - should render correctly(screenshot)
+  - should render a <div />
+  - should render the Calculator Component
+
+#### Feature Tests
+- Calculator:
+  - calls updateDisplay when a number is clicked
+  - calls setOperator when an operator key is clicked
+  - calls callOperator when the submit key is clicked
