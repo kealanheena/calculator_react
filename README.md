@@ -42,13 +42,20 @@ I would like to delete a number of the displayed number.
 ## Tech Used
 
 ## Features
+You can:
+  - Add
+  - Subtract
+  - Multiply
+  - Divide
+  - Add numbers to the display
+  - Remove numbers from display
 
 # Getting Started
 
 ## Local Setup
 
 ```sh
-$ git clone git@github.com:calebpollman/react-calculator.git
+$ git clone https://github.com/kealanheena/calculator_react.git
 ```
 
 ```sh
