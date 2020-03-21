@@ -8,6 +8,37 @@ A simple Calculator app created in React using TDD(test driven development) with
 
 ## User Stories
 
+```
+As a user,
+So I can see the numbers I'm adding
+I would like to see them displayed above the calculator,
+
+As a user,
+So I can get the sum of two numbers,
+I would like to be able to add two numbers.
+
+As a user,
+So I can get the reduce a number,
+I would like to be able to subtract two numbers.
+
+As a user,
+So I can get the multiple of two numbers,
+I would like to be able to multiply two numbers.
+
+As a user,
+So I can get the split a number equally,
+I would like to be able to divide two numbers.
+
+As a user,
+So I can reuse a number,
+I would like to sum to be stored.
+
+As a user,
+So I can correct my mistakes,
+I would like to delete a number of the displayed number.
+
+```
+
 ## Tech Used
 
 ## Features
