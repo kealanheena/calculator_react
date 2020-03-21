@@ -41,7 +41,13 @@ I would like to delete a number of the displayed number.
 
 ## Tech Used
 
+- JavaScript
+- React
+- Jest
+- Enzyme
+
 ## Features
+
 You can:
   - Add
   - Subtract
