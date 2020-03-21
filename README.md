@@ -2,6 +2,10 @@
 
 A simple Calculator app created in React using TDD(test driven development) with Jest and Enzyme.
 
+<div align="center">
+  <img src="./img/calculator.png"/>
+</div>
+
 ## User Stories
 
 ## Tech Used
