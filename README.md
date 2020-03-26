@@ -89,21 +89,21 @@ $ npm test
 #### Unit Tests
 - Key:
   - should render correctly(snapshot)
-  - should render a <div/>
+  - should render a div
   - should render the value of the keyValue
 - Keypad:
   - should render correctly(snapshot)
-  - should render a 4 <div/>'s
+  - should render a 4 div's
   - should render an instance of the key component for each index of numbers, operators, and the submit Key
   - renders the values of numbers
   - renders the values of operators
 - Display:
   - should render correctly(snapshot)
-  - should render a <div/>
+  - should render a div
   - renders the value of displayValue
 - Calculator:
   - should render correctly(snapshot)
-  - should render a <div/>
+  - should render a div
   - should render Display and Keypad Components
     - updateDisplay
       - updates displayValue
@@ -129,7 +129,7 @@ $ npm test
       - updates displayValue to "0" if called with no value for storedValue or selectedOperator
 - App:
   - should render correctly(screenshot)
-  - should render a <div />
+  - should render a div
   - should render the Calculator Component
 
 #### Feature Tests
